@@ -11,7 +11,7 @@ DNABERT-Enhancer is a cutting-edge computational tool designed for the identific
   - [Data Processing](#data-processing)
   - [Download Fine-tuned Model](#download-fine-tuned-model)
   - [Getting Prediction from the Model](#getting-prediction-from-the-model)
-  - [Storing the Results in W&B](#storing-the-results-in-wandb)
+  - [Storing the Results in W&B](#storing-the-results-in-wb)
 - [Usage](#usage)
 - [Citation](#citation)
 - [Contact](#contact)
