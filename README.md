@@ -30,7 +30,7 @@ The repository includes the combined dataset of enhancer and non-enhancer sequen
 DNABERT-Enhancer is built upon [DNABERT](https://github.com/jerryji1993/DNABERT), a large language model for the human genome, fine-tuned specifically for enhancer prediction.
 
 ### Model Highlights:
-- **Training Accuracy:** 80.92%
+- **Test Accuracy:** 80.92%
 - **Features:** Top ENCODE features
 - **Methodology:** Random Forest classifiers and iterative refinement
 
