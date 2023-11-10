@@ -7,11 +7,12 @@ DNABERT-Enhancer is a cutting-edge computational tool designed for the identific
 - [Introduction](#introduction)
 - [Abstract](#abstract)
 - [Datasets](#datasets)
-- [Model](#model)
+- [Model and Usage](#model)
   - [Data Processing](#data-processing)
-  - [Download Fine-tuned Model](#download-fine-tuned-model)
-  - [Getting Prediction from the Model](#getting-prediction-from-the-model)
-  - [Storing the Results in W&B](#storing-the-results-in-wb)
+  - [Usage](#usage)
+    - [Download Fine-tuned Model](#download-fine-tuned-model)
+    - [Getting Prediction from the Model](#getting-prediction-from-the-model)
+    - [Storing the Results in W&B](#storing-the-results-in-wb)
 - [Usage](#usage)
 - [Citation](#citation)
 - [Contact](#contact)
@@ -36,14 +37,18 @@ DNABERT-Enhancer is built upon [DNABERT](https://github.com/jerryji1993/DNABERT)
 ### Data Processing
 Explain the data processing steps involved in preparing the dataset for the model.
 
-### Download Fine-tuned Model
+### Usage
+Instructions on how to effectively use the DNABERT-Enhancer model.
+
+
+#### Download Fine-tuned Model
 Instructions on how to download the DNABERT-Enhancer model from Hugging Face.
 
-### Getting Prediction from the Model
+#### Getting Prediction from the Model
 Guidelines on how to use the DNABERT-Enhancer model to make predictions.
 
-### Storing the Results in W&B
-Steps to log and track model predictions using Weights & Biases.
+#### Storing the Results in W&B
+Steps to log and track model predictions using Weights and biases.
 
 ### Model Highlights:
 - **Test Accuracy:** 80.92%
@@ -57,14 +62,6 @@ Instructions on how to use the DNABERT-Enhancer model and datasets for enhancer 
 If you use the DNABERT-Enhancer in your research, please cite our paper:
 
 ```bib
-@article{your_citation_here,
-    title={DNABERT-Enhancer: Harnessing the Power of a Comprehensive ENCODE-Guided Dataset for Enhancer Prediction},
-    author={Your Author Names},
-    journal={Your Journal Name},
-    year={Your Publication Year},
-    doi={Your DOI},
-    url={Your Paper URL}
-}
 
 @article{ji2021dnabert,
     author = {Ji, Yanrong and Zhou, Zhihan and Liu, Han and Davuluri, Ramana V},
