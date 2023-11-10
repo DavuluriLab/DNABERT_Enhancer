@@ -8,6 +8,10 @@ DNABERT-Enhancer is a cutting-edge computational tool designed for the identific
 - [Abstract](#abstract)
 - [Datasets](#datasets)
 - [Model](#model)
+  - [Data Processing](#data-processing)
+  - [Download Fine-tuned Model](#download-fine-tuned-model)
+  - [Getting Prediction from the Model](#getting-prediction-from-the-model)
+  - [Storing the Results in W&B](#storing-the-results-in-wandb)
 - [Usage](#usage)
 - [Citation](#citation)
 - [Contact](#contact)
@@ -28,6 +32,18 @@ The repository includes the combined dataset of enhancer and non-enhancer sequen
 
 ## Model
 DNABERT-Enhancer is built upon [DNABERT](https://github.com/jerryji1993/DNABERT), a large language model for the human genome, fine-tuned specifically for enhancer prediction.
+
+### Data Processing
+Explain the data processing steps involved in preparing the dataset for the model.
+
+### Download Fine-tuned Model
+Instructions on how to download the DNABERT-Enhancer model from Hugging Face.
+
+### Getting Prediction from the Model
+Guidelines on how to use the DNABERT-Enhancer model to make predictions.
+
+### Storing the Results in W&B
+Steps to log and track model predictions using Weights & Biases.
 
 ### Model Highlights:
 - **Test Accuracy:** 80.92%
