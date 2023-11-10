@@ -27,7 +27,7 @@ The repository includes the combined dataset of enhancer and non-enhancer sequen
 - **Sequence Length:** 200 bp
 
 ## Model
-DNABERT-Enhancer is built upon DNABERT, a large language model for the human genome, fine-tuned specifically for enhancer prediction.
+DNABERT-Enhancer is built upon [DNABERT](https://github.com/jerryji1993/DNABERT), a large language model for the human genome, fine-tuned specifically for enhancer prediction.
 
 ### Model Highlights:
 - **Training Accuracy:** 80.92%
