@@ -24,26 +24,21 @@ Enhancers play a pivotal role in gene expression and can be linked to various di
 This project presents a comprehensive approach to enhancer prediction by combining 10 public datasets and constructing a feature matrix using ENCODE ChIP-Seq peak regions. Through a series of steps involving Random Forest classifiers and iterative refinement, we've created a high-quality dataset and developed the DNABERT-Enhancer model. This model, fine-tuned on this dataset, showcases an accuracy of 80.92% in enhancer prediction, demonstrating its effectiveness.
 
 ## Datasets
-For building the DNABERT-Enhancer model, we created enhancer and non-enhancer data, length of 200 bp, using 10 different databases and eliminated potential mislabeled sequences by applying a Random Forest classifier iteratively. 
+For building the **DNABERT-Enhancer** model, we created enhancer and non-enhancer data, length of 200 bp, using 10 different databases and eliminated potential mislabeled sequences by applying a Random Forest classifier iteratively. 
 
 ### Data statistics
-In the whole process of preparing unbiased and reliable data (Fine-tune data) for DNABERT finetuning task, we prepared 3 datasets namely dataset 1(DS1), dataset 2(DS2) and dataset 3(DS3) where DS2 and DS3 are subsets of DS1, created by selecting the true predictions (True positives and True negatives) by the Random Forest models. The statistics of the four datasets are given in below table. ![statistics](Figures/Data_statistics.png)
+In the whole process of preparing unbiased and reliable data (_Fine-tune data_) for DNABERT finetuning task, we prepared 3 datasets namely _dataset 1(DS1)_, _dataset 2(DS2)_ and dataset _3(DS3)_ where DS2 and DS3 are subsets of DS1, created by selecting the true predictions (True positives and True negatives) by the Random Forest models. The statistics of the four datasets are given in below table. ![statistics](Figures/Data_statistics.png)
 
 ### Data structure
-Each dataset is a feature matrix which represents the intersect between the enhancer/non-enhancer regions with 4000 ENCODE ChIP-seq features, where the values represent the number of overlapped peaks. The rows are the enhancer/non-enhancer elements and columns are the ENCODE ChIP-seq peaks or features. Matrix structure is as shown in the below figure.![image](Figures/MAtrix_format.png)
+Each dataset is a feature matrix which represents the intersect between the enhancer/non-enhancer regions with 4000 ENCODE ChIP-seq features, where the values represent the number of overlapped peaks. The rows are the enhancer/non-enhancer elements and columns are the ENCODE ChIP-seq peaks or features. Matrix structure is as shown in the below figure.![image](Figures/Sample_matrix.png)
 
 ### Sample dataset
 <!--The repository includes the combined dataset of enhancer and non-enhancer sequences used for training and testing the DNABERT-Enhancer model. -->
-A sample dataset of 500 enhancers and 500 non-enhancers (1000 entries) from the 
-Fine-tune data is provided in the Sample_dataset folder. The ‘Sample_Fine-tune_data_entries.csv’ has the sampled enhancer and non-enhancer coordinates with sequence and class name. The ‘Sample_DNABERT_input.tsv’ has the hexamers and the label of the corresponding sampled entries. Please refer to below figures for the format of the files.
+A sample dataset of 500 enhancers and 500 non-enhancers (1000 entries) from the _Fine-tune data_ is provided in the 'Sample_dataset' folder. The ‘Sample_Fine-tune_data_entries.csv’ has the sampled enhancer and non-enhancer coordinates with sequence and class name. The ‘Sample_DNABERT_input.tsv’ has the hexamers and the label of the corresponding sampled entries. Please refer to below figures for the format of the files.
 ![image](Figures/Dataset_format.png)
 ![image](Figures/DNABERT_input.png)
 
-
-### Dataset Details:
-- **Enhancer Sequences:** 7,779 sequences
-- **Non-Enhancer Sequences:** 8,172 sequences
-- **Sequence Length:** 200 bp
+**Note**: The entire dataset will be available upon request.
 
 ## Model
 DNABERT-Enhancer is built upon [DNABERT](https://github.com/jerryji1993/DNABERT), a large language model for the human genome, fine-tuned specifically for enhancer prediction.
