@@ -29,6 +29,9 @@ For building the DNABERT-Enhancer model, we created enhancer and non-enhancer da
 ### Data statistics
 In the whole process of preparing unbiased and reliable data (Fine-tune data) for DNABERT finetuning task, we prepared 3 datasets namely dataset 1(DS1), dataset 2(DS2) and dataset 3(DS3) where DS2 and DS3 are subsets of DS1, created by selecting the true predictions (True positives and True negatives) by the Random Forest models. The statistics of the four datasets are given in below table. ![statistics](Figures/Data_statistics.png)
 
+### Data structure
+Each dataset is a feature matrix which represents the intersect between the enhancer/non-enhancer regions with 4000 ENCODE ChIP-seq features, where the values represent the number of overlapped peaks. The rows are the enhancer/non-enhancer elements and columns are the ENCODE ChIP-seq peaks or features. Matrix structure is as shown in the below figure.![image](Figures/MAtrix_format.png)
+
 The repository includes the combined dataset of enhancer and non-enhancer sequences used for training and testing the DNABERT-Enhancer model. 
 
 ### Dataset Details:
