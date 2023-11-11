@@ -32,7 +32,13 @@ In the whole process of preparing unbiased and reliable data (Fine-tune data) fo
 ### Data structure
 Each dataset is a feature matrix which represents the intersect between the enhancer/non-enhancer regions with 4000 ENCODE ChIP-seq features, where the values represent the number of overlapped peaks. The rows are the enhancer/non-enhancer elements and columns are the ENCODE ChIP-seq peaks or features. Matrix structure is as shown in the below figure.![image](Figures/MAtrix_format.png)
 
-The repository includes the combined dataset of enhancer and non-enhancer sequences used for training and testing the DNABERT-Enhancer model. 
+### Sample dataset
+<!--The repository includes the combined dataset of enhancer and non-enhancer sequences used for training and testing the DNABERT-Enhancer model.-->
+A sample dataset of 500 enhancers and 500 non-enhancers (1000 entries) from the 
+Fine-tune data is provided in the Sample_dataset folder. The ‘Sample_Fine-tune_data_entries.csv’ has the sampled enhancer and non-enhancer coordinates with sequence and class name. The ‘Sample_DNABERT_input.tsv’ has the hexamers and the label of the corresponding sampled entries. Please refer to below figures for the format of the files.
+![image](Figures/Dataset_format.png)
+![image](Figures/DNABERT_input.png)
+
 
 ### Dataset Details:
 - **Enhancer Sequences:** 7,779 sequences
