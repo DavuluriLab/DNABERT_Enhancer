@@ -24,7 +24,12 @@ Enhancers play a pivotal role in gene expression and can be linked to various di
 This project presents a comprehensive approach to enhancer prediction by combining 10 public datasets and constructing a feature matrix using ENCODE ChIP-Seq peak regions. Through a series of steps involving Random Forest classifiers and iterative refinement, we've created a high-quality dataset and developed the DNABERT-Enhancer model. This model, fine-tuned on this dataset, showcases an accuracy of 80.92% in enhancer prediction, demonstrating its effectiveness.
 
 ## Datasets
-The repository includes the combined dataset of enhancer and non-enhancer sequences used for training and testing the DNABERT-Enhancer model.
+For building the DNABERT-Enhancer model, we created enhancer and non-enhancer data, length of 200 bp, using 10 different databases and eliminated potential mislabeled sequences by applying a Random Forest classifier iteratively. 
+
+### Data statistics
+In the whole process of preparing unbiased and reliable data (Fine-tune data) for DNABERT finetuning task, we prepared 3 datasets namely dataset 1(DS1), dataset 2(DS2) and dataset 3(DS3) where DS2 and DS3 are subsets of DS1, created by selecting the true predictions (True positives and True negatives) by the Random Forest models. The statistics of the four datasets are given in below table.
+
+The repository includes the combined dataset of enhancer and non-enhancer sequences used for training and testing the DNABERT-Enhancer model. 
 
 ### Dataset Details:
 - **Enhancer Sequences:** 7,779 sequences
