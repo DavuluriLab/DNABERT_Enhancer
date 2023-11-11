@@ -27,7 +27,7 @@ This project presents a comprehensive approach to enhancer prediction by combini
 For building the DNABERT-Enhancer model, we created enhancer and non-enhancer data, length of 200 bp, using 10 different databases and eliminated potential mislabeled sequences by applying a Random Forest classifier iteratively. 
 
 ### Data statistics
-In the whole process of preparing unbiased and reliable data (Fine-tune data) for DNABERT finetuning task, we prepared 3 datasets namely dataset 1(DS1), dataset 2(DS2) and dataset 3(DS3) where DS2 and DS3 are subsets of DS1, created by selecting the true predictions (True positives and True negatives) by the Random Forest models. The statistics of the four datasets are given in below table.
+In the whole process of preparing unbiased and reliable data (Fine-tune data) for DNABERT finetuning task, we prepared 3 datasets namely dataset 1(DS1), dataset 2(DS2) and dataset 3(DS3) where DS2 and DS3 are subsets of DS1, created by selecting the true predictions (True positives and True negatives) by the Random Forest models. The statistics of the four datasets are given in below table. ![statistics](Figures/Data_stat.png)
 
 The repository includes the combined dataset of enhancer and non-enhancer sequences used for training and testing the DNABERT-Enhancer model. 
 
