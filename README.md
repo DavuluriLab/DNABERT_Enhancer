@@ -1,4 +1,4 @@
-# DNABERT-Enhancer: Harnessing the Power of a Comprehensive ENCODE-Guided Dataset for Enhancer Prediction
+# Genomic Language Model for Predicting Enhancers and Their Allele-Specific Activity in the Human Genome
 
 ## Overview
 DNABERT-Enhancer is a cutting-edge computational tool designed for the identification of enhancers – crucial regulatory elements in genomics. This repository hosts the DNABERT-Enhancer model, datasets, and related resources.
