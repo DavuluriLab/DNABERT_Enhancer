@@ -6,7 +6,7 @@ DNABERT-Enhancer is a machine learning method based on the genome foundational l
 ## Table of Contents
 - [Introduction](#introduction)
 - [Abstract](#abstract)
-- [Datasets](#datasets)
+[//]: # - [Datasets](#datasets)
   - [Data Statistics](#data-statistics)
   - [Data Structure](#data-structure)
   - [Sample Dataset](#sample-dataset)
