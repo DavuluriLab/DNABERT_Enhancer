@@ -26,19 +26,19 @@
 ### Usage
 Instructions on how to effectively use the DNABERT-Enhancer model.
 
-#### Download Fine-tuned Model
-Instructions on how to download the DNABERT-Enhancer model from Hugging Face.
-
-#### Getting Prediction from the Model
-Guidelines on how to use the DNABERT-Enhancer model to make predictions.
-
-#### Storing the Results in W&B
-Steps to log and track model predictions using Weights and biases.
-
-### Model Highlights:
-- **Test Accuracy:** 80.92%
-- **Features:** Top ENCODE features
-- **Methodology:** Random Forest classifiers and iterative refinement
+  #### Download Fine-tuned Model
+  Instructions on how to download the DNABERT-Enhancer model from Hugging Face.
+  
+  #### Getting Prediction from the Model
+  Guidelines on how to use the DNABERT-Enhancer model to make predictions.
+  
+  #### Storing the Results in W&B
+  Steps to log and track model predictions using Weights and biases.
+  
+  ### Model Highlights:
+  - **Test Accuracy:** 80.92%
+  - **Features:** Top ENCODE features
+  - **Methodology:** Random Forest classifiers and iterative refinement
 
 
 ## Citation
