@@ -26,7 +26,7 @@
 ## Usage of the Model
 Instructions on how to effectively use the DNABERT-Enhancer model.
 
-  - #### **Download Fine-tuned Model and Prediction **: Details on downloading the model and instructions for fine-tuning and prediction will be provided upon the acceptance of the paper. 
+  - #### **Download Fine-tuned Model and Prediction :** Details on downloading the model and instructions for fine-tuning and prediction will be provided upon the acceptance of the paper. 
   
 
   
