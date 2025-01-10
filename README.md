@@ -31,6 +31,7 @@ Instructions on how to effectively use the DNABERT-Enhancer model.
 
   
   - #### Model Highlights:<img src="https://github.com/DavuluriLab/DNABERT_Enhancer/tree/main/Figures/PM.png" width="48" title="Performance metrics of the two DNABERT-Enhancer models">
+  <a href="url"><img src="https://github.com/DavuluriLab/DNABERT_Enhancer/tree/main/Figures/PM.png" align="left" height="48" width="48" ></a>
 
 [![Alt text](https://github.com/DavuluriLab/DNABERT_Enhancer/tree/main/Figures/Model_performance.png)](web link to website)
 ![much-smaller image](https://github.com/DavuluriLab/DNABERT_Enhancer/tree/main/Figures/Model_performance.png){#id .class width=30 height=20px}
