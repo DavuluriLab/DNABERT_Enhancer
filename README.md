@@ -31,9 +31,7 @@ Instructions on how to effectively use the DNABERT-Enhancer model.
 
   
   - #### Model Highlights:
-    - **Test Accuracy:** 80.92%
-    - **Features:** Top ENCODE features
-    - **Methodology:** Random Forest classifiers and iterative refinement
+  ![alt text]([https://github.com/DavuluriLab/DNABERT_Enhancer/tree/main/Figures/Model_performance.png?raw=true)
 
 
 ## Citation
