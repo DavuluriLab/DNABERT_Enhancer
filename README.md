@@ -31,7 +31,7 @@ Instructions on how to effectively use the DNABERT-Enhancer model.
 
   
   - #### Model Highlights:
-    <img src="Figures/PM.png" title="Performance metrics of the two DNABERT-Enhancer models">
+    <img src="Figures/Model_performance.png" title="Performance metrics of the two DNABERT-Enhancer models">
 
 ## Citation
 If you use the DNABERT-Enhancer in your research, please cite our paper:
