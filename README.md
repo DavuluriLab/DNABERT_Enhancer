@@ -23,13 +23,10 @@
 ## Model
 <p align="justify"> DNABERT-Enhancer is built upon [DNABERT](https://github.com/jerryji1993/DNABERT), a large language model for the human genome, fine-tuned specifically for enhancer prediction. </p>
 
-### Usage
+## Usage of the Model
 Instructions on how to effectively use the DNABERT-Enhancer model.
 
   - #### **Download Fine-tuned Model and Prediction **: Details on downloading the model and instructions for fine-tuning and prediction will be provided upon the acceptance of the paper. 
-  
-  
-
   
 
   
