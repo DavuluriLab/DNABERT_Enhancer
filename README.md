@@ -33,7 +33,7 @@ Instructions on how to effectively use the DNABERT-Enhancer model.
   - #### Model Highlights:
 https://github.com/DavuluriLab/DNABERT_Enhancer/tree/main/Figures/Model_performance.png
 [![Alt text](https://github.com/DavuluriLab/DNABERT_Enhancer/tree/main/Figures/Model_performance.png)](web link to website)
-
+![much-smaller image](https://github.com/DavuluriLab/DNABERT_Enhancer/tree/main/Figures/Model_performance.png){#id .class width=30 height=20px}
 ## Citation
 If you use the DNABERT-Enhancer in your research, please cite our paper:
 
