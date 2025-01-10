@@ -26,7 +26,7 @@
 ### Usage
 Instructions on how to effectively use the DNABERT-Enhancer model.
 
-  #### Download Fine-tuned Model
+  - #### Download Fine-tuned Model
   Instructions on how to download the DNABERT-Enhancer model from Hugging Face.
   
   #### Getting Prediction from the Model
